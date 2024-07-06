@@ -246,6 +246,7 @@ header {
     padding: 20px 10px;
     z-index: 999;
     width: 100%;
+    top: 0;
   }
   .sticky-desk {
     position: relative;
@@ -1237,6 +1238,7 @@ figure.site__hero__figure figcaption.site__hero__caption--submenu h1 {
 @media (max-width: 768px) {
   .elem__area__socmed div {
     font-size: 12px;
+    margin: 0;
   }
 }
 
@@ -2516,7 +2518,8 @@ a.emailUs {
   figure.site__hero__figure.player iframe,
   figure.site__hero__figure img.hero__image--homepage,
   figure.site__hero__figure img.hero__image--submenu {
-    height: 75vh;
+    height: 50vh;
+    object-fit: contain;
   }
 
   figure.site__hero__figure figcaption.site__hero__caption h1 {
