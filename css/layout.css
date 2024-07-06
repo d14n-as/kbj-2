@@ -436,6 +436,7 @@ p.ol-paragraf {
   text-align: center;
   right: 0;
   background-color: #2a4f768f;
+  backdrop-filter: blur(4px);
   z-index: 2;
   -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -445,8 +446,8 @@ p.ol-paragraf {
 @media (max-width: 768px) {
   .elem__center__absolute {
     padding: 30px;
-    height: 100vh;
     z-index: 0;
+    height: 100vh;
   }
 }
 
@@ -458,14 +459,15 @@ p.ol-paragraf {
 .elem__center__absolute h1 {
   color: #ffde3d;
   line-height: 1;
-  font-size: 1.7em;
+  font-size: 30px;
   padding: 0;
   margin: 0;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
   .elem__center__absolute h1 {
-    font-size: 1.2em;
+    font-size: 25px;
   }
 }
 
@@ -1277,7 +1279,6 @@ figure.site__hero__figure figcaption.site__hero__caption--submenu h1 {
 @media (max-width: 768px) {
   .parallax-2 {
     height: 100vh;
-    background-attachment: scroll;
   }
 }
 
