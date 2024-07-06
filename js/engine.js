@@ -2,6 +2,7 @@
 
 $("#toggle").click(function () {
   $(this).toggleClass("active");
+  $('body').toggleClass("overflowhidden");
   $("#nav__overlay").toggleClass("open");
 });
 

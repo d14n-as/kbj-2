@@ -70,6 +70,10 @@ button {
   appearance: none;
 }
 
+.overflowhidden {
+  overflow: hidden;
+}
+
 ::-moz-selection {
   background: #deb14c;
   color: #ffffff;
@@ -2185,13 +2189,14 @@ a.emailUs {
     opacity: 1;
     visibility: visible;
     height: 100vh;
-    z-index: 999;
+    z-index: -1;
     overflow-y: hidden;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     border-top: 1px solid #294f76;
+    margin: 0;
   }
 
   /* .swiper-slide {
