@@ -448,6 +448,7 @@ p.ol-paragraf {
     padding: 30px;
     z-index: 0;
     height: 100vh;
+    backdrop-filter: none;
   }
 }
 
