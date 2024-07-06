@@ -1276,6 +1276,7 @@ figure.site__hero__figure figcaption.site__hero__caption--submenu h1 {
 @media (max-width: 768px) {
   .parallax-2 {
     height: 100vh;
+    background-attachment: scroll;
   }
 }
 
