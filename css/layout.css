@@ -769,7 +769,7 @@ figure.site__hero__figure figcaption.site__hero__caption--submenu h1 {
 }
 
 .site__card__list {
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -1735,6 +1735,7 @@ img.ui__shine--icon {
 .questionWrap2 {
   display: flex;
   gap: 20px;
+  flex-direction: column;
 }
 
 .questionWrap2 p {
@@ -1742,6 +1743,7 @@ img.ui__shine--icon {
   font-weight: 700;
   font-size: 2.1vw;
   color: #ffffff;
+  max-width: 70%;
 }
 
 .questionWrap2 .questionWrapleft {
@@ -1762,6 +1764,7 @@ img.ui__shine--icon {
 .questionWrap2 .questionWrapright {
   background-color: #29762a;
   border-radius: 20px;
+  min-height: 50vh;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -1976,6 +1979,8 @@ a.emailUs {
   font-weight: 700;
   font-style: normal;
   color: #294f76;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .hero__section .imgHero {
