@@ -447,7 +447,7 @@ p.ol-paragraf {
   .elem__center__absolute {
     padding: 30px;
     z-index: 0;
-    height: 100vh;
+    height: 100 vcvh;
     backdrop-filter: unset;
   }
 }
