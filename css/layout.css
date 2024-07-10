@@ -1909,6 +1909,27 @@ img.cta-icon {
   transition: 0.7s ease;
 }
 
+.wa-mob {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .backtotop {
+    display: none;
+  }
+  .wa-mob {
+    width: 50%;
+    height: 20px;
+    position: fixed;
+    bottom: 5%;
+    opacity: 0;
+    right: 3%;
+    z-index: 180;
+    transition: 0.7s ease;
+    display: block;
+  }
+}
+
 .show {
   opacity: 1;
 }

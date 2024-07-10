@@ -176,12 +176,15 @@ gsap.to(".play2", {
 
 
 var btnToTop = $('.backtotop');
+var waBtn = $('.wa-mob');
 
 $(window).scroll(function () {
   if ($(window).scrollTop() > 700) {
     btnToTop.addClass('show');
+    waBtn.addClass('show');
   } else {
     btnToTop.removeClass('show');
+    waBtn.removeClass('show');
   }
 });
 
